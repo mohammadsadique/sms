@@ -2,9 +2,9 @@
 
 // send SMS
 function SMS($phone_number){
-    $username="GOBIKE";   
-    $password ="GOBIKE";
-    $senderid  = "GOBIKE";
+    $username="YOUR_USERNAME";   
+    $password ="YOUR_PASSWORD";
+    $senderid  = "YOUR_SENDERID";
     $number = $phone_number;
     $message = "Hi there.";
     // $message = str_replace(" ","%20","Hi there.");
