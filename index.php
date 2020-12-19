@@ -25,8 +25,8 @@ if(isset($_POST['sub'])){
     SMS($phone_number);
 }
 
-$username="GOBIKE";   
-    $password ="GOBIKE";
+$username="YOUR_USERNAME";   
+    $password ="YOUR_PASSWORD";
 // How many SMS remaining?
     //http://bulksms.saakshisoftware.in/api/mt/GetBalance?User=demo&Password=demo123
     $url="bulksms.saakshisoftware.in/api/mt/GetBalance?User=$username&password=$password"; 
